@@ -1,30 +1,17 @@
 {
-  "name": "@stansun/react-dynamic-form",
-  "version": "1.0.0",
-  "description": "Scaffold your next form in 10 minutes",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
-    }
-  },
-  "keywords": [
-    "react",
-    "dynamic-form",
-    "form"
-  ],
-  "license": "MIT",
-  "author": "Toma Bourov",
   "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.17.1",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/babajaga3/react-dynamic-form.git"
+    },
+    "bugs": {
+      "url": "https://github.com/babajaga3/react-dynamic-form/issues"
+    },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "zod": "^4.3.6"
+    "build": "pnpm -r build",
+    "dev": "pnpm -r --parallel dev",
+    "typecheck": "pnpm -r typecheck"
   }
 }
